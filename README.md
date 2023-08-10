@@ -13,7 +13,8 @@ python manage.py migrate
 
 python manage.py runserver
 
-# for installation of docker refer to my repo SCRIPTS
+# for installation of docker refer to my repo:
+>>> https://github.com/Kal1-linux/scripts
 
 //Dockerfile is created 
 
