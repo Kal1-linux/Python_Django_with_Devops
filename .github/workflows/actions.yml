@@ -19,4 +19,5 @@ jobs:
         mkdir /home/ubuntu/actions-runner/_work/Python_Django_with_Devops
         cd /home/ubuntu/actions-runner/_work/Python_Django_with_Devops
         git clone https://github.com/Kal1-linux/Python_Django_with_Devops.git
+        cd /home/ubuntu/actions-runner/_work/Python_Django_with_Devops/Python_Django_with_Devops/Company_Review_System
         bash /home/ubuntu/actions-runner/_work/Python_Django_with_Devops/Python_Django_with_Devops/Company_Review_System/automate.sh
