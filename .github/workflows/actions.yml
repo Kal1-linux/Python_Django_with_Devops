@@ -1,0 +1,18 @@
+name: Company Review System
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name as needed
+
+jobs:
+  deploy:
+    runs-on: self-hosted  # Indicates that the job will run on a self-hosted runner
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Execute automate.sh on Self-Hosted Runner
+      run: |
+        bash Company_Review_System/automate.sh
