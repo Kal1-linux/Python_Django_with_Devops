@@ -1,3 +1,4 @@
+docker login
 docker kill dev
 docker rm dev
 docker image rm dev_auto:latest
