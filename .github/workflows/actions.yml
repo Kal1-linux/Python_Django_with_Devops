@@ -15,4 +15,4 @@ jobs:
 
     - name: Execute automate.sh on Self-Hosted Runner
       run: |
-        bash Company_Review_System/automate.sh
+        bash /home/ubuntu/actions-runner/_work/Python_Django_with_Devops/Python_Django_with_Devops/Company_Review_System/automate.sh
