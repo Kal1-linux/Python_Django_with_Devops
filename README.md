@@ -3,7 +3,6 @@ Company_Review_System project created using Python and Django where people can g
 
 //Commands to setup:
 
-
 pip install django
 
 python -m pip install pillow 
