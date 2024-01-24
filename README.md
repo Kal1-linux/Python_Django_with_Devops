@@ -5,6 +5,7 @@ Company_Review_System project created using Python and Django where people can g
 
 pip install django
 
+
 python -m pip install pillow 
 
 python manage.py makemigrations
